@@ -1,0 +1,1 @@
+bindsym $mod+p exec /home/chhatra/.config/i3lock/lock
