@@ -6,7 +6,7 @@
 !picom/*
 !polybar/*
 !rofi/*
-!rofi-wifi-menu/*
+!rofi-wifi-menu
 !sxhkd/*
 !wal/*
 !*/
