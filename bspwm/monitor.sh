@@ -6,6 +6,7 @@ if [[ $(xrandr -q | grep 'HDMI-1 connected') ]]; then
     #bspc monitor eDP1 -d 1 2 3 4 5 6 7 8   
     bspc monitor eDP-1 -d V VII VII VIII
 else
-    xrandr --output eDP-1 --primary --mode 1920x1080 --rotate normal 
-    bspc monitor -d I II III IV V VI VII VIII 
+	xrandr --output HDMI-1 --off
+    	xrandr --output eDP-1 --primary --mode 1920x1080 --rotate normal 
+    	bspc monitor -d I II III IV V VI VII VIII 
 fi

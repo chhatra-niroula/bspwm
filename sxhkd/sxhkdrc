@@ -12,6 +12,13 @@ super + @space
 #	rofi -show drun
 #       dmenu_run
 
+# program launcher
+super + alt + space
+        rofi -no-config -no-lazy-grab -show drun -modi drun -theme ~/.config/polybar/colorblocks/scripts/rofi/launcher.rasi
+#       rofi -show drun
+#       dmenu_run
+
+
 
 
 alt + space
